@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayşe Yılmaz - Web Tasarımı Öğrencisi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="header-inner">
+                <h1>Ayşe Yılmaz</h1>
+                <p class="subtitle">Web Tasarımı Öğrencisi</p>
+                <nav class="menu">
+                    <a href="#hakkimda" class="nav-link">Hakkımda</a>
+                    <a href="#yeteneklerim" class="nav-link">Yeteneklerim</a>
+                    <a href="#derslerim" class="nav-link">Derslerim</a>
+                    <a href="#iletisim" class="nav-link">İletişim</a>
+                </nav>
+            </div>
+        </header>
+    <main class="container">
+        <section id="hakkimda" class="section">
+            <h2>Hakkımda</h2>
+            <div class="card">
+                <p>Merhaba! Ben Ayşe. Bilgisayar Programcılığı bölümünde okuyorum ve <strong>web tasarımı</strong> öğreniyorum. Bu sayfayı HTML ve CSS dersinde öğrendiklerimi kullanarak hazırladım.</p>
+                <p>Boş zamanlarımda kitap okumayı, fotoğraf çekmeyi ve <em>yeni şeyler öğrenmeyi</em> seviyorum.</p>
+            </div>
+        </section>
+        <section id="yeteneklerim" class="section">
+            <h2>Yeteneklerim</h2>
+            <div class="card">
+                <ul>
+                    <li>HTML ile sayfa yapısı kurmak</li>
+                    <li>CSS ile renk, yazı ve boşluk ayarlamak</li>
+                    <li>Basit tablo ve form hazırlamak</li>
+                    <li>Takım çalışması ve sunum</li>
+                </ul>
+            </div>
+        </section>
+        <section id="derslerim" class="section">
+            <h2>Bu Dönem Aldığım Dersler</h2>
+            <div class="card">
+                <div class="table-container">
+                    <table class="courses-table">
+                        <thead>
+                            <tr>
+                                <th>Ders Adı</th>
+                                <th>Kredi</th>
+                                <th>Not</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Web Tasarımının Temelleri</td>
+                                <td>4</td>
+                                <td>AA</td>
+                            </tr>
+                            <tr>
+                                <td>Programlamaya Giriş</td>
+                                <td>3</td>
+                                <td>BA</td>
+                            </tr>
+                            <tr>
+                                <td>Grafik Tasarım</td>
+                                <td>2</td>
+                                <td>BB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="iletisim" class="section">
+            <h2>İletişim</h2>
+            <div class="card">
+                <p>Bana mesaj göndermek için aşağıdaki formu doldurabilirsiniz.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Adınız:</label>
+                        <input type="text" id="name" name="name" placeholder="Adınızı yazın">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta:</label>
+                        <input type="email" id="email" name="email" placeholder="ornek@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Mesajınızı yazın"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Gönder</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ayşe Yılmaz - Web Tasarımı Dersi Ödevi</p>
+    </footer>
+    </div>
+</body>
+</html>
