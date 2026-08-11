@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 100;
     box-sizing: border-box;
 }
 
@@ -134,8 +134,7 @@ main {
     font-weight: bold;
     color: #333;
 }
-.form-group input,
-.form-group textarea {
+.form-group input,.form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -144,8 +143,7 @@ main {
     font-size: 1em;
     resize: vertical;
 }
-.form-group input:focus,
-.form-group textarea:focus {
+.form-group input:focus,.form-group textarea:focus {
     outline: none;
     border-color: #c7c404;
     box-shadow: 0 0 5px rgba(233, 7, 233, 0.3);
